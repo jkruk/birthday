@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------font--------*/
+@font-face
+{
+font-family:OpenSans_L;
+src: url(../font/OpenSans-Light.ttf);
+}
+@font-face
+{
+font-family:OpenSans_R;
+src: url(../font/OpenSans-Regular.ttf);
+}
+@font-face
+{
+font-family:OpenSans_B;
+src: url(../font/OpenSans-Bold.ttf);
+}
+@font-face
+{
+font-family:m_R;
+src: url(../font/mplus-1c-regular.ttf);
+}
+@font-face
+{
+font-family:m_L;
+src: url(../font/mplus-1c-light.ttf);
+}
+@font-face
+{
+font-family:Merriweather_LI;
+src: url(../font/Merriweather-LightItalic.ttf);
+}

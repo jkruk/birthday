@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.artclose,.artclose_mo {
+  height: 16px;
+  width: 20px;
+  cursor: pointer;
+  background-color:transparent;
+  z-index:9999;
+}
+.burgx, .burgx2, .burgx3 , .burgx_mo, .burgx2_mo, .burgx3_mo  {
+  transition:all ease 0.2s;
+  margin-top: 0px;
+  background: #201610;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+.burgx2 {
+ margin-top: 7px;
+}
+.burgx3,.burgx3_mo {
+margin-top: 14px;
+transform: rotate(180deg); 
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+}
+
+@media screen and (max-width:1024px) {
+	.artclose_mo{
+		height: 26px;
+        width: 30px;
+		}
+	 .burgx_mo, .burgx2_mo, .burgx3_mo{
+		 width: 30px;
+         height: 3px;
+		 }
+	  .burgx2_mo{
+		  margin-top:10px;
+		  }
+	  .burgx3_mo{
+		  margin-top: 20px;
+		  }
+	}
